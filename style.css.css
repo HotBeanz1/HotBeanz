@@ -1,0 +1,142 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffffff;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #525252;
+    padding: 10px;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #e44d26;
+}
+
+main {
+    padding: 16px 2px;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.button {
+    background-color: #e44d26;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #d43c20;
+}
+
+#application {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#new-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    width: 100%; /* Adjust width to fill the available space */
+    max-width: 400px; /* Limit maximum width for better readability */
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center; /* Center align form elements */
+}
+
+#new-form label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left; /* Align labels to the left */
+}
+
+#new-form input[type="text"],
+#new-form input[type="email"],
+#new-form input[type="tel"],
+#new-form textarea {
+    width: calc(100% - 20px); /* Adjust width to fill the available space with padding */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; /* Include padding and border in the element's total width */
+}
+
+#new-form textarea {
+    height: 100px;
+}
+
+
+#new-form input[type="submit"] {
+    background-color: #e44d26;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#new-form input[type="submit"]:hover {
+    background-color: #d43c20;
+}
+
+
+footer {
+    background-color: #ffffff;
+    padding: 20px 0;
+    color: #000000;
+    text-align: left;
+}
+
+.footer-content {
+    text-align: left; 
+}
+
+.top-row {
+    margin-bottom: 10px;
+}
+
+.bottom-row {
+    margin-top: 10px;
+}
+
+.pic1{
+    width: 40px;
+}
+
+.half-line {
+    border-top: 1px solid #ccc;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.coursespic{
+    width: 300px;
+}
